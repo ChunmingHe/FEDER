@@ -1,7 +1,7 @@
 # FEDER
 **Camouflaged Object Detection with Feature Decomposition and Edge Reconstruction**,  CVPR 2023
 
-[paper] [supplementary material] [[Results](https://drive.google.com/drive/folders/1Pho42bHiBhVR0l9KzdOFQgqLzr8mSv9e?usp=sharing)] [[pretrained models](https://drive.google.com/file/d/1MONpM9auqGlRoyaOKUe6wJgLZ-E6A4Dc/view?usp=sharing)]
+[Paper] [supplementary material] [[Results](https://drive.google.com/drive/folders/1Pho42bHiBhVR0l9KzdOFQgqLzr8mSv9e?usp=sharing)] [[Pretrained models](https://drive.google.com/file/d/1MONpM9auqGlRoyaOKUe6wJgLZ-E6A4Dc/view?usp=sharing)]
 
 #### Authors
 [Chunming He](https://chunminghe.github.io/), [Kai Li*](http://kailigo.github.io/), [Yachao Zhang](https://yachao-zhang.github.io/), Longxiang Tang, [Yulun Zhang](https://yulunzhang.com/), [Zhenhua Guo](https://scholar.google.com/citations?user=dbR6bD0AAAAJ&hl=en), [Xiu Li*](https://scholar.google.com/citations?user=Xrh1OIUAAAAJ&hl=en)
@@ -14,3 +14,20 @@
 > </p>
 ---
 Code will be released.
+
+## Related Works
+[Feature Shrinkage Pyramid for Camouflaged Object Detection with Transformers](https://github.com/ZhouHuang23/FSPNet), CVPR23.
+
+[Concealed Object Detection](https://github.com/GewelsJI/SINet-V2), TPAMI22.
+
+You can see more related papers in [awesome-COD](https://github.com/visionxiang/awesome-camouflaged-object-detection).
+## Citation
+If you find our work useful in your research, please consider citing:
+```
+@inproceedings{He2023Camouflaged,
+title={Camouflaged Object Detection with Feature Decomposition and Edge Reconstruction},
+author={He, Chunming and Li, Kai and Zhang, Yachao and Tang, Longxiang and Zhang, Yulun and Guo, Zhenhua and Li, Xiu},
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+year={2023}
+}
+```
