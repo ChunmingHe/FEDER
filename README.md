@@ -32,4 +32,4 @@ year={2023}
 }
 ```
 ## Acknowledgement
-The code is built on [Concealed Object Detection](https://github.com/GewelsJI/SINet-V2). Please also follow the corresponding licenses. Thanks for the awesome work.
+The code is built on [SINet V2](https://github.com/GewelsJI/SINet-V2). Please also follow the corresponding licenses. Thanks for the awesome work.
