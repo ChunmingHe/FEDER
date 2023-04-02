@@ -31,3 +31,5 @@ booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
 year={2023}
 }
 ```
+## Acknowledgement
+The code is built on [Concealed Object Detection](https://github.com/GewelsJI/SINet-V2). Please also follow the corresponding licenses. Thanks for the awesome work.
