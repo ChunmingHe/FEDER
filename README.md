@@ -13,7 +13,49 @@
 > <img width="800" src="Framework.png">
 > </p>
 ---
-Code will be released.
+
+## Usage
+
+
+
+### 1. Prerequisites
+
+> Note that FEDER is only tested on Ubuntu OS with the following environments.
+
+- Creating a virtual environment in terminal: `conda create -n FEDER python=3.8`.
+- Installing necessary packages: `pip install -r requirements.txt`
+
+### 2. Downloading Training and Testing Datasets
+
+- Download the [training set](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/EQ75AD2A5ClIgqNv6yvstSwBQ1jJNC6DNbk8HISuxPV9QA?e=UhHKSD) (COD10K-train) used for training 
+- Download the [testing sets](https://anu365-my.sharepoint.com/:u:/g/personal/u7248002_anu_edu_au/EVI0Bjs7k_VIvz4HmSVV9egBo48vjwX7pvx7deXBtooBYg?e=FjGqZZ) (COD10K-test + CAMO-test + CHAMELEON + NC4K ) used for testing
+
+### 3. Training Configuration
+
+- The pretrained model is stored in [Google Drive](https://drive.google.com/file/d/1OmE2vEegPPTB1JZpj2SPA6BQnXqiuD1U/view?usp=share_link) and [Baidu Drive](https://pan.baidu.com/s/1Dqo5VnL_1z7HwViOftXKGQ?pwd=xuwb 
+  ) (xuwb). After downloading, please change the file path in the corresponding code.
+```bash
+python Train.py
+```
+
+### 4. Testing Configuration
+
+Our well-trained model is stored in [Google Drive](https://drive.google.com/file/d/1MONpM9auqGlRoyaOKUe6wJgLZ-E6A4Dc/view?usp=sharing). After downloading, please change the file path in the corresponding code.
+```bash
+python Test.py
+```
+
+### 5. Evaluation
+
+- Matlab code: One-key evaluation is written in [MATLAB code](https://github.com/DengPingFan/CODToolbox), please follow this the instructions in `main.m` and just run it to generate the evaluation results.
+
+### 6. Results download
+
+The prediction results of our FEDER are stored on [Google Drive](https://drive.google.com/drive/folders/1Pho42bHiBhVR0l9KzdOFQgqLzr8mSv9e?usp=sharing) please check.
+
+
+
+
 
 ## Related Works
 [Feature Shrinkage Pyramid for Camouflaged Object Detection with Transformers](https://github.com/ZhouHuang23/FSPNet), CVPR23.
