@@ -35,14 +35,14 @@
 - The pretrained model is stored in [Google Drive](https://drive.google.com/file/d/1OmE2vEegPPTB1JZpj2SPA6BQnXqiuD1U/view?usp=share_link) and [Baidu Drive](https://pan.baidu.com/s/1Dqo5VnL_1z7HwViOftXKGQ?pwd=xuwb 
   ) (xuwb). After downloading, please change the file path in the corresponding code.
 ```bash
-python Train.py
+python Train.py  --epoch 160  --lr 1e-4  --batchsize 36  --trainsize 36  --train_root YOUR_TRAININGSETPATH  --val_root  YOUR_VALIDATIONSETPATH  --save_path YOUR_CHECKPOINTPATH
 ```
 
 ### 4. Testing Configuration
 
 Our well-trained model is stored in [Google Drive](https://drive.google.com/file/d/1MONpM9auqGlRoyaOKUe6wJgLZ-E6A4Dc/view?usp=sharing). After downloading, please change the file path in the corresponding code.
 ```bash
-python Test.py
+python Test.py  --testsize YOUR_IMAGESIZE  --pth_path YOUR_CHECKPOINTPATH  --test_dataset_path  YOUR_TESTINGSETPATH
 ```
 
 ### 5. Evaluation
