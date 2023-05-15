@@ -73,5 +73,9 @@ booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
 year={2023}
 }
 ```
+
+## Concat
+If you have any questions, please feel free to contact me via email at chunminghe19990224@gmail.com or hcm21@mails.tsinghua.edu.cn.
+
 ## Acknowledgement
 The code is built on [SINet V2](https://github.com/GewelsJI/SINet-V2). Please also follow the corresponding licenses. Thanks for the awesome work.
