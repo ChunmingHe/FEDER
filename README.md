@@ -32,8 +32,7 @@
 
 ### 3. Training Configuration
 
-- The pretrained model is stored in [Google Drive](https://drive.google.com/file/d/1OmE2vEegPPTB1JZpj2SPA6BQnXqiuD1U/view?usp=share_link) and [Baidu Drive](https://pan.baidu.com/s/1Dqo5VnL_1z7HwViOftXKGQ?pwd=xuwb 
-  ) (xuwb). After downloading, please change the file path in the corresponding code.
+- The pretrained model is stored in [Google Drive](https://drive.google.com/file/d/1OmE2vEegPPTB1JZpj2SPA6BQnXqiuD1U/view?usp=share_link). After downloading, please change the file path in the corresponding code.
 ```bash
 python Train.py  --epoch 160  --lr 1e-4  --batchsize 36  --trainsize 36  --train_root YOUR_TRAININGSETPATH  --val_root  YOUR_VALIDATIONSETPATH  --save_path YOUR_CHECKPOINTPATH
 ```
