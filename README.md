@@ -59,9 +59,9 @@ The prediction results of our FEDER are stored on [Google Drive](https://drive.g
 ## Related Works
 [Weakly-Supervised Concealed Object Segmentation with SAM-based Pseudo Labeling and Multi-scale Feature Grouping](https://arxiv.org/abs/2305.11003), arxiv 2023.
 
-[Feature Shrinkage Pyramid for Camouflaged Object Detection with Transformers](https://github.com/ZhouHuang23/FSPNet), CVPR23.
+[Feature Shrinkage Pyramid for Camouflaged Object Detection with Transformers](https://github.com/ZhouHuang23/FSPNet), CVPR 2023.
 
-[Concealed Object Detection](https://github.com/GewelsJI/SINet-V2), TPAMI22.
+[Concealed Object Detection](https://github.com/GewelsJI/SINet-V2), TPAMI 2022.
 
 You can see more related papers in [awesome-COD](https://github.com/visionxiang/awesome-camouflaged-object-detection).
 ## Citation
